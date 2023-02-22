@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "lakshansivagnanasothy": {
+      "type": "object",
+      "properties": {
+        "openweathermap_report_to_email222": {
+          "type": "object",
+          "properties": {
+            "appId": {
+              "type": "string",
+              "description": ""
+            },
+            "cityName": {
+              "type": "string",
+              "description": ""
+            },
+            "recipientAddress": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "appId",
+            "cityName",
+            "recipientAddress"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
